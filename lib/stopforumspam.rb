@@ -33,6 +33,7 @@ module StopForumSpam
     end
 
     def parse_checks(checks)
+      raise ArgumentError, 'At least one argument required' if checks.length < 1
       return checks.map{|check|
         case check.class.to_s
         when 'String'

@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'ruby-stopforumspam'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.licenses    = ['MIT']
   s.summary     = 'Ruby wrapper for stopforumspam.com API.'
   s.description = 'Ruby wrapper for stopforumspam.com API. Check IP addresses, email addresses, and usernames for known spam activity.'
